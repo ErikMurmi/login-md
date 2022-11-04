@@ -1,26 +1,88 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Wancho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&family=Noto+Sans+Wancho&display=swap');
+body{
+    background-image: url(../img/login_background.png);
+    margin: 0;
+    font-family: 'Noto Sans Wancho', sans-serif;
+    overflow: hidden;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+.home_container{
+    background-color: white;
+    height: 100vh;
+    margin-inline: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
 }
 
-* {
-  box-sizing: border-box;
+.form-container{
+    background-color: white;
+    margin: 10% auto;
+    padding: 50px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    gap: 30px;
+    width: fit-content;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
+body h1{
+    font-family: 'Noto Sans Wancho', sans-serif;
+    font-stretch:semi-expanded;
+    font-weight: bold;
+    font-size: 40px;
+    margin: 0;
+}
+
+.login-form{
+    display: flex;
+    flex-direction: column;
+    margin-top: -20px;
+    gap: 10px;
+}
+
+.vertical-line{
+    height:250px;
+    width:2px;
+    border-width:0;
+    color:gray;
+    background-color:#3999FF
+}
+
+input{
+    border-color: #3999FF;
+    border-radius: 10px;
+    font-size: large;
+    padding: 10px;
+}
+
+input[type="submit"]{
+    background-color:#4057ff ;
     color: white;
-    background: black;
-  }
+    font-weight: bold;
+    margin-top: 20px;
+    border: none;
+}
+
+select{
+    border-color: #3999FF;
+    border-radius: 10px;
+    font-size: large;
+    padding: 10px;
+}
+
+.log_out{
+    background-color:#c62933 ;
+    color: white;
+    font-weight: bold;
+    margin-top: 20px;
+    border-radius: 15px;
+    padding: 20px 30px 20px 30px;
+    border: none;
 }
