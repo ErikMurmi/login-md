@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Wancho&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&family=Noto+Sans+Wancho&display=swap');
 body{
-    background-image: url(../img/login_background.png);
+    background-image: url(https://drive.google.com/uc?export=view&id=105dr0CV0IXA2XSqHpOVkocmBMEt-v203);
+    background-size: cover;
+    background-repeat: no-repeat;
     margin: 0;
     font-family: 'Noto Sans Wancho', sans-serif;
     overflow: hidden;
